@@ -1,0 +1,323 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Sansita&display=swap");
+
+* {
+  margin: 0;
+  padding: 0; 
+}
+
+/*selectores de etiqueta*/
+
+p {
+  color: black;
+}
+
+a {
+  color: black;
+}
+
+/* selectores de clase */
+.violet {
+  color: violet;
+}
+
+.green {
+  color: green;
+}
+
+.orange {
+  color: #ff9e45;
+}
+
+.salmon {
+  color: salmon;
+}
+
+.chocolate {
+  color: chocolate;
+}
+
+.pink {
+  color: #c54f5e;
+}
+
+.black {
+  color: black;
+}
+
+.blue {
+  color: blue;
+}
+
+.red {
+  color: red;
+}
+.gradient-animation {
+  background: linear-gradient(to top, #ff9e45, pink);
+}
+
+.scale-animation:hover {
+  transform: scale(1.1);
+}
+.button {
+  width: 100px;
+  height: 25px;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(to top, orange, pink);
+}
+.button:hover {
+  background: linear-gradient(to top, pink, orange);
+  cursor: pointer;
+}
+.skew:hover {
+  transform: skew(10deg);
+  cursor: pointer;
+}
+
+/* flexbox en Seccion Contacto: */
+.container2 {
+  padding: 50px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cajaContacto1 {
+  width: 45%;
+  color: black;
+  text-align: center;
+}
+
+.cajaContacto2 {
+  width: 45%;
+  color: black;
+  text-align: center;
+}
+
+.container3 {
+  padding: 100px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.cajaRescatados1 {
+  width: 100%;
+  color: black;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.cajaResctados2 {
+  margin-top: 10px;
+  width: 100%;
+  color: black;
+  text-align: center;
+}
+
+/* selectores de ID */
+#etiquetas p {
+  color: grey;
+}
+
+#titulo {
+  color: #ff9e45;
+}
+
+#num {
+  color: black;
+  font-size: 15px;
+  text-align: center;
+  padding: 5px 20px;
+}
+
+#parrafoRescatados {
+  padding: 30px;
+  margin: 15px;
+  border: dotted 3px orange;
+}
+
+header {
+  display: grid;
+  background-image: url(../img/fondocolorido.jpg);
+  background-attachment: fixed;
+  background-size: initial;
+  background-position: center;
+  height: 25vh;
+  grid-area: header;
+}
+
+body {
+  background-image: url(../img/pastelcolor.jpg);
+  background-repeat: repeat;
+  background-position: initial;
+  background-size: initial;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "header" "main" "footer";
+}
+
+nav {
+  padding: 5px;
+  justify-self: stretch;
+}
+main {
+  grid-area: main;
+  display: grid;
+  margin: 50px;
+  grid-row: 20px;
+  -ms-grid-column-align: stretch;
+}
+footer {
+  background-color: #f3b3a4;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: medium;
+  grid-area: footer;
+}
+nav ul {
+  list-style: none;
+  font-size: 0;
+  float: right;
+  width: 40%;
+}
+nav li {
+  display: inline-block;
+  width: auto;
+  position: relative;
+  margin-left: 30px;
+  font-size: 14px;
+  padding-top: 50px;
+}
+nav ul ul {
+  position: absolute;
+  display: none;
+}
+nav ul ul li {
+  display: block;
+  margin: 5px 0 0 0;
+  padding-top: 3px;
+}
+nav ul li:hover ul {
+  display: block;
+  position: absolute;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2,
+h3 {
+  font-family: "Sansita", sans-serif;
+  font-size: 30px;
+}
+
+.textCenter {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+.textCenterRescatados {
+  text-align: center;
+  margin-top: 20px;
+}
+.textRight {
+  text-align: right;
+}
+.textLeft {
+  text-align: left;
+}
+.textTransform {
+  text-transform: uppercase;
+}
+
+/* Grid */
+.grid {
+  width: 99%;
+  display: grid;
+}
+/* grid en seccion tienda */
+.card-products {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 200px 200px;
+  justify-content: center;
+  text-align: center;
+  align-content: stretch;
+}
+/* grid en seccion Quienes Somos */
+.historyImg {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 200px 200px;
+  justify-content: center;
+  text-align: center;
+  align-content: stretch;
+}
+/* grid en Index */
+.home {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 700px 700px;
+  justify-content: center;
+  text-align: center;
+  align-content: stretch;
+  grid-column-gap: 100px;
+}
+/* grid mobile first */
+
+@media only screen and (min-width: 540px) {
+  .grid .home {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  header img {
+    width: 13%;
+  }
+  nav ul {
+    width: 58%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .grid .home {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  header img {
+    width: 13%;
+  }
+  nav ul {
+    width: 55%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .grid .home {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  header img {
+    width: 8%;
+  }
+  nav ul {
+    width: 30%;
+  }
+}

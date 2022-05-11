@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous">
+        <!-- link de css -->
+        <link rel="stylesheet" href="css/main.css">
+
+        <title>COMODOGS - Rescatistas de animales</title>
+        <meta name="description" content="Rescatistas independientes de animales
+            callejeros y maltratados en San Miguel, Bs. As.">
+        <meta name="keywords" content="rescates, animales, perros, gatos ,
+            callejeros, maltrato animal, adopciones, transitos, donaciones,
+            adoptar, amor animal , cachorritos , gatos abandonados, gatas
+            preñadas, perras preñadas, castraciones responsables, vacunas ,
+            refugio , rescatistas independientes, mas amor , menos maltrato">
+        <meta name="author" content="micaelaocampo.com.ar">
+    </head>
+    <body>
+
+        <!-- NavBar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-lightsalmon">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logosinfondo.png" alt="logo de comodogs,
+                        carita de perro y gato más palabra comodogs">
+                </a>
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse"
+                    id="navbarSupportedContent">
+
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav--decoration">
+                        <li class="nav-item">
+                            <a class="nav-link nav__style--decoration"
+                                href="./pages/quienesSomos.html">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav__style--decoration"
+                                href="./pages/rescatados.html">Rescatados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav__style--decoration"
+                                href="./pages/productos.html">Tienda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav__style--decoration"
+                                href="./pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search"
+                            placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-secondary"
+                            type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- Cierra NavBar -->
+
+
+        <!-- Carousel -->
+        <header>
+            <h1 class="text-center py-5 display-3">COMODOGS</h1>
+            <div id="carouselExampleIndicators" class="carousel slide"
+                data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="0" class="active"
+                        aria-current="true"
+                        aria-label="Slide 1"></button>
+                    <button type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/carousel1.jpg" class="d-block w-100"
+                            alt="cachorra">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/carousel2.jpg" class="d-block w-100"
+                            alt="gatita bebe">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/carousel3.jpg" class="d-block w-100"
+                            alt="gata negra">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/carousel4.jpg" class="d-block w-100"
+                            alt="cachorro sobre el pasto">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"
+                        aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior foto</span>
+                </button>
+                <button class="carousel-control-next" type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"
+                        aria-hidden="true"></span>
+                    <span class="visually-hidden">Posterior foto</span>
+                </button>
+            </div>
+        </header>
+        <!-- cierra carousel -->
+
+        <section class="bg-salmon text-white py-5">
+            <div class="container-fluid pd-7 text-center">
+
+                <div class="row imgTransform">
+                    <article class="col-lg-6 mb-5">
+                        <img src="img/TINA.jpg" class="rounded-3"
+                            alt="perrita">
+                        <h2 class="text-center"> Tina rescatada!</h2>
+                        <P class="text-center w-75 m-auto">Ayer nos llegaba
+                            esta alerta, una cachorrita abandonada en un día de
+                            lluvia que no paraba de llorar para que la entren.
+                            Una más de todas las que estan o son abandonadas en
+                            la calle...
+                            Pero la suerte estaba de su lado y a la tarde ya
+                            estaba
+                            con nosotras!
+                            Tenia bastantes pulgas y garrapatas, ya fue
+                            desparasitada pero esta muy descompuesta.
+                            Esperemos que se pueda recomponer rápido así la
+                            podemos
+                            publicar en adopción para encontrarle una linda
+                            flia. Por el momento se
+                            encuentra
+                            en tránsito recuperándose. Ya fue bañada y es
+                            mimada un monton!</P>
+                    </article>
+                    <article class="col-lg-6 mb-5">
+                        <img src="img/CACHORROS.jpg" class="rounded-3"
+                            alt="3
+                            CACHORROS">
+                        <h2 class="text-center"> Tres cachorros más
+                            rescatados!</h2>
+                        <P class="text-center w-75 m-auto">Ellos son 3
+                            machitos
+                            que fueron abandonados ayer en Los Polvorines.
+                            Tienen sarna, parásitos, pulgas y garrapatas.
+                            Gracias a la sarna que tienen lloran y están
+                            desesperados por la picazón y dolor que tienen
+                            en su
+                            piel.
+                            Tienen tres meses aprox, ya hoy arrancaron su
+                            tratamiento y baños cada tres días. Esperemos
+                            que
+                            mejoren pronto para que dejen de sufrir tanto.
+                            <strong> Esto se evita CASTRANDO,</strong> no
+                            nos
+                            queremos ni imaginar
+                            el estado de la mamá de estos cachorros.</P>
+                    </article>
+                    <article class="col-lg-6 mb-5">
+
+                        <img src="img/LISA NOVEDADES.jpg" class="rounded-3"
+                            alt="gatita blanca">
+                        <h2 class="text-center"> Novedades de Lisa, gatita
+                            operada</h2>
+                        <P class="text-center w-75 m-auto">Hoy Lisa tuvo la
+                            cirugía de corte
+                            de
+                            orejas, esta intervención era necesaria debido a
+                            su
+                            cáncer de piel que tenía en nariz y orejas.
+                            Las lesiones de la nariz parecen ser
+                            erradicadas,
+                            igualmente seguirá con controles para
+                            asegurarnos
+                            que
+                            esté 100% bien!
+                            Ella salió muy bien de la cirugía, ya está con
+                            Flor que es quien la transita y se viene
+                            bancando todo de una forma inexplicable, además
+                            todo
+                            el
+                            amor que le da a Lisa es lo que la ayuda a esta
+                            dulce
+                            gatita a salir adelante.
+                            <strong>Seguiremos subiendo novedades de Lisa,
+                                recuerden que ella está en adopción,</strong>
+                            buscamos familias que quieras acompañarla el
+                            resto
+                            de su vida y
+                            le brinden todo el amor que se merece</P>
+                    </article>
+                    <article class="col-lg-6 nb-5">
+                        <img src="img/BUCK NOVEDADES.jpg" class="rounded-3"
+                            alt="gatito
+                            naranja">
+                        <h2 class="text-center"> Buck un pequeño gran
+                            luchador</h2>
+                        <P class="text-center w-75 m-auto">Ayer a Buck le
+                            sacaron los puntos de su ojito, él está súper
+                            bien!
+                            Lo que cambió Buck es impresionante, si bien
+                            perdió su ojo, para él fue un alivio ya que la
+                            infección que tenía en su cara era terrible. Él
+                            ahora hace la vida de un gatito normal, además
+                            de
+                            que es un dulce total.</P>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cards -->
+
+        <div class="row">
+
+            <article class="col-lg-4 cards--background">
+                <div class="card card__desing--Colors my-5">
+                    <img src="img/card1.jpg" class="card-img-top"
+                        alt="productos en venta">
+                    <div class="card-body">
+                        <h3 class="card-title">Nuestros productos</h3>
+                        <p class="card-text">Tenemos gran variedad de productos,
+                            hace click para verlos!</p>
+                        <a href="./pages/productos.html" class="btn
+                            btn-warning">Tienda</a>
+                    </div>
+                </div>
+            </article>
+            <article class="col-lg-4 cards--background">
+                <div class="card card__desing--Colors my-5">
+                    <img src="img/card2.jpg" class="card-img-top"
+                        alt="fundadora con cachorro en brazos">
+                    <div class="card-body">
+                        <h3 class="card-title">Nuestra historia</h3>
+                        <p class="card-text">Te invitamos a conocer un poco
+                            mas acerca de nosotros:</p>
+                        <a href="./pages/quienesSomos.html" class="btn
+                            btn-warning">Quienes Somos</a>
+                    </div>
+                </div>
+            </article>
+            <article class="col-lg-4 cards--background">
+                <div class="card card__desing--Colors my-5">
+                    <img src="img/POST.jpg" class="card-img-top"
+                        alt="imagen invitando a donar">
+                    <div class="card-body">
+                        <h3 class="card-title">Donaciones</h3>
+                        <p class="card-text">Queres colaborar junto a
+                            nosotros ?</p>
+                        <a href="./pages/contacto.html" class="btn btn-warning">Donacion</a>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+        <!-- Cierra card -->
+        <!-- Formulario y maps-->
+
+        <section class="bg-salmon text-dark">
+            <h3 class="mx-3 py-5">Contactanos</h3>
+            <div class="container-fluid py-5 m-2">
+                <div class="row">
+                    <article class="col-lg-6">
+                        <form>
+                            <div class="row mb-3">
+                                <label for="inputEmail3" class="col-sm-2
+                                    col-form-label">Nombre y Apellido</label>
+                                <div class="col-sm-10">
+                                    <input type="email" class="form-control"
+                                        id="inputEmail3">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="inputPassword3" class="col-sm-2
+                                    col-form-label">Email</label>
+                                <div class="col-sm-10">
+                                    <input type="password"
+                                        class="form-control"
+                                        id="inputPassword3">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="inputPassword3"
+                                    class="col-sm-2
+                                    col-form-label">Nro de telefono</label>
+                                <div class="col-sm-10">
+                                    <input type="password"
+                                        class="form-control"
+                                        id="inputPassword3">
+                                </div>
+                            </div>
+                            <fieldset class="row mb-3">
+                                <legend class="col-form-label col-sm-2
+                                    pt-0">Contacto por:</legend>
+                                <div class="col-sm-10">
+                                    <div class="form-check">
+                                        <input class="form-check-input"
+                                            type="radio"
+                                            name="gridRadios"
+                                            id="gridRadios1"
+                                            value="option1"
+                                            checked>
+                                        <label class="form-check-label"
+                                            for="gridRadios1">
+                                            Quiero adoptar
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input"
+                                            type="radio"
+                                            name="gridRadios"
+                                            id="gridRadios2"
+                                            value="option2">
+                                        <label class="form-check-label"
+                                            for="gridRadios2">
+                                            Quiero ser voluntario
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input"
+                                            type="radio"
+                                            name="gridRadios"
+                                            id="gridRadios2"
+                                            value="option2">
+                                        <label class="form-check-label"
+                                            for="gridRadios2">
+                                            Quiero donar
+                                        </label>
+                                    </div>
+
+                                </div>
+                            </fieldset>
+                            <div class="row mb-3">
+                                <div class="col-sm-10 offset-sm-2">
+                                    <div class="form-check">
+                                        <input class="form-check-input"
+                                            type="checkbox"
+                                            id="gridCheck1">
+                                        <label class="form-check-label"
+                                            for="gridCheck1">
+                                            Acepto términos y
+                                            condiciones
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn
+                                btn-outline-dark my-1">Enviar
+                            </button>
+                        </form>
+                    </article>
+                    <article class="col-lg-6">
+                        <iframe class="scale-animation my-1"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105073.44366949785!2d-58.50333801311818!3d-34.6156624588238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1625858245735!5m2!1ses-419!2sar"
+                            width="100%" height="250" style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"></iframe>
+                    </article>
+                </div>
+            </div>
+            <!-- MAPA DEL SITIO -->
+            <div class="mapaDelSitio">
+                <h3 class="my-4">HOME</h3>
+                <ul>
+                    <li>
+                        <a
+                            href="./pages/quienesSomos.html">Quienes Somos</a>
+                    </li>
+                    <li>
+                        <a
+                            href="./pages/rescatados.html">Rescatados</a>
+                    </li>
+                    <li>
+                        <a href="./pages/productos.html">Tienda</a>
+                    </li>
+                    <li>
+                        <a href="./pages/contacto.html">Contacto</a>
+                    </li>
+                </div>
+            </section>
+
+            <!-- cierra form y maps -->
+
+            <!-- footer-->
+
+            <footer class="footer__style--bgText">
+
+                <b> COMODOGS, SAN MIGUEL. 2021 / Seguinos en nuestras redes</b>
+                <a href="https://www.facebook.com/comodogs/"> <img
+                        src="https://img.icons8.com/fluent/48/000000/facebook-new.png"
+                        alt="icono de facebook"></a>
+                <a href="https://www.instagram.com/comodogs/"><img
+                        src="https://img.icons8.com/fluent/48/000000/instagram-new.png"
+                        alt="icono de instagram"></a>
+            </footer>
+
+
+            <!-- Bootstrap Bundle with Popper -->
+            <script
+                src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+                crossorigin="anonymous"></script>
+
+        </body>
+    </html>

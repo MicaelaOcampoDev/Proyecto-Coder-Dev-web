@@ -1,0 +1,68 @@
+h1 {
+  font-family: $fontMain;
+  font-size: $fontSizeBg; 
+}
+h2,
+h3 {
+  font-family: $fontMain;
+  font-size: $fontSizeMd;
+}
+p {
+  color: $dark;
+  font-family: $fontP;
+  font-size: $fontSizeSm;
+}
+
+body {
+  background-color: $bg-salmon;
+}
+
+.mapaDelSitio {
+  background-color: $bg-coral;
+  padding: $py;
+  a {
+    color: black;
+  }
+}
+// BEM INDEX CARDS
+
+.cards--background {
+  background-color: $bg-pastel;
+}
+.card__desing--Colors {
+  background-color: $bg-lightSalmon;
+}
+
+// BEM QUIENES SOMOS
+.design {
+  background-color: $bg-salmon;
+}
+.design__p--style {
+  text-transform: uppercase;
+  padding: $py;
+}
+
+// BEM RESCATADOS
+.section--Important {
+  background-color: $bg-salmon;
+}
+.section__bg-style {
+  text-decoration: none;
+  font-size: $fontSizeSm;
+  font-family: $fontNav;
+  color: $dark;
+}
+// Transformaciones + Animaciones
+.imgTransform :hover {
+  transform: scale(1.1, 1.1);
+}
+.button {
+  width: 100px;
+  height: 25px;
+  border-radius: 5px;
+  border: none;
+  background: linear-gradient(to top, orange, pink);
+}
+.button:hover {
+  transform: scale(1.1, 1.2);
+}

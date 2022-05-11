@@ -1,0 +1,57 @@
+/* background colors */
+
+.bg-salmon {
+  background-color: #f3b3a4;
+}
+.bg-lightsalmon { 
+  background-color: #fdcfca;
+}
+/* fuentes */
+h1,
+h2 {
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+/* Flex box Rescatados
+.container3 {
+  padding: 50px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.cajaRescatados1 {
+  width: 100%;
+  color: black;
+  text-align: center;
+  margin: 50px;
+}
+
+.cajaResctados2 {
+  margin-top: 10px;
+  width: 100%;
+  color: black;
+  text-align: center;
+} */
+/* Grid */
+.grid {
+  width: 99%;
+  display: grid;
+}
+
+/* grid en seccion tienda */
+.card-products {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 400px 400px;
+  justify-content: center;
+  text-align: center;
+  align-content: stretch;
+}
+
+/* grid en seccion Quienes Somos */
+.historyImg {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 200px 200px;
+  justify-content: center;
+  text-align: center;
+  align-content: stretch;
+}

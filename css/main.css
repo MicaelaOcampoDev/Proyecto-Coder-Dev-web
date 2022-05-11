@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Merriweather:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Merriweather&family=PT+Sans&display=swap");
+* {
+  margin: 0; 
+  padding: 0; }
+
+nav {
+  background-color: #fdcfca; }
+
+.nav--decoration {
+  text-decoration: black; }
+
+.nav__style--decoration {
+  font-family: "Merriweather", serif;
+  font-size: 1em; }
+
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 3em; }
+
+h2,
+h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2em; }
+
+p {
+  color: black;
+  font-family: "PT Sans", sans-serif;
+  font-size: 1em; }
+
+body {
+  background-color: #f3b3a4; }
+
+.mapaDelSitio {
+  background-color: #f5a462;
+  padding: 2em; }
+  .mapaDelSitio a {
+    color: black; }
+
+.cards--background {
+  background-color: #f3d0cd; }
+
+.card__desing--Colors {
+  background-color: #fdcfca; }
+
+.design {
+  background-color: #f3b3a4; }
+
+.design__p--style {
+  text-transform: uppercase;
+  padding: 2em; }
+
+.section--Important {
+  background-color: #f3b3a4; }
+
+.section__bg-style {
+  text-decoration: none;
+  font-size: 1em;
+  font-family: "Merriweather", serif;
+  color: black; }
+
+.imgTransform :hover {
+  transform: scale(1.1, 1.1); }
+
+.button {
+  width: 100px;
+  height: 25px;
+  border-radius: 5px;
+  border: none;
+  background: linear-gradient(to top, orange, pink); }
+
+.button:hover {
+  transform: scale(1.1, 1.2); }
+
+.footer__style--bgText {
+  background-color: #fdcfca;
+  text-align: center;
+  color: black; }
